@@ -3,7 +3,7 @@ import time
 from telegram import Bot
 import os
 
-TOKEN = os.environ["8608528512:AAGUGc3Scl3_GYUgXke3803NonBX3S3XDhc"]
+TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["129897273"]
 
 def get_rate():
