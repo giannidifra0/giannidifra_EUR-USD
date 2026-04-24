@@ -4,7 +4,7 @@ from telegram import Bot
 import os
 
 TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID = os.environ["129897273"]
+CHAT_ID = 129897273
 
 def get_rate():
     url = "https://api.exchangerate.host/latest?base=EUR&symbols=USD"
